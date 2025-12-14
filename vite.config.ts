@@ -63,5 +63,6 @@
       port: Number(process.env.PORT) || 4173,
       host: '0.0.0.0',
       open: false,
+      allowedHosts: ['temantukang.satset.click'],
     },
   });
