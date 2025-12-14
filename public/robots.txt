@@ -1,0 +1,10 @@
+# TemanTukang Robots.txt
+User-agent: *
+Allow: /
+
+# Block API and private areas
+Disallow: /api/
+Disallow: /admin/
+
+# Sitemap
+Sitemap: https://temantukang.satset.click/sitemap.xml
