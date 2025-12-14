@@ -10,13 +10,13 @@ TemanTukang is a handyman booking platform UI built with React, TypeScript, and 
 
 ```bash
 # Install dependencies
-npm i
+bun install
 
 # Start development server (runs on port 3000)
-npm run dev
+bun run dev
 
 # Build for production (outputs to /build)
-npm run build
+bun run build
 ```
 
 ## Architecture
