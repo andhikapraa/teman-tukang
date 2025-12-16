@@ -78,28 +78,6 @@ export default function DesktopBooking() {
 
   return (
     <div className="w-[1280px] h-[832px] mx-auto bg-white flex flex-col relative overflow-hidden">
-      {/* Status Bar */}
-      <div className="px-6 py-3 flex items-center justify-between bg-white border-b border-gray-100">
-        <div className="flex items-center gap-2 text-sm text-[#002A45]">
-          <span>21:00</span>
-        </div>
-        <div className="flex items-center gap-3 text-[#002A45]">
-          <svg width="20" height="14" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect x="0" y="8" width="4" height="6" rx="1" fill="currentColor"/>
-            <rect x="6" y="5" width="4" height="9" rx="1" fill="currentColor"/>
-            <rect x="12" y="2" width="4" height="12" rx="1" fill="currentColor"/>
-            <rect x="18" y="0" width="2" height="14" rx="1" fill="currentColor"/>
-          </svg>
-          <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M2 6C2 4.89543 2.89543 4 4 4H14C15.1046 4 16 4.89543 16 6V12C16 13.1046 15.1046 14 14 14H4C2.89543 14 2 13.1046 2 12V6Z" stroke="currentColor" strokeWidth="1.5"/>
-            <rect x="16" y="7" width="2" height="4" rx="1" fill="currentColor"/>
-          </svg>
-          <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="9" cy="9" r="8" fill="currentColor"/>
-          </svg>
-        </div>
-      </div>
-
       {/* Header Section */}
       <div className="px-8 pt-6 pb-5 bg-white border-b border-gray-100">
         <div className="flex items-center justify-between mb-6">
